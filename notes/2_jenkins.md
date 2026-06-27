@@ -4,9 +4,9 @@ everything jenkins related can be found at this [link](https://www.jenkins.io/do
 
 ## 1. initial setup
 
-1. set up java **[docs](https://www.jenkins.io/doc/book/installing/linux/#debian-java)**
+1. install java **[docs](https://www.jenkins.io/doc/book/installing/linux/#debian-java)**
 
-2. set up Jenkins (LTS) **[docs](https://www.jenkins.io/doc/book/installing/linux/#debian-stable)**
+2. install Jenkins (LTS) **[docs](https://www.jenkins.io/doc/book/installing/linux/#debian-stable)**
 
 3. starting Jenkins
 

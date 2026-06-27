@@ -18,6 +18,8 @@ server setup. will extend it along the way.
 
     add user to sudoers with `usermod -aG sudo <username>` and confirm `groups <username>`, switch user account with `su - <username>` then run `apt update` to test the permission
 
+    run `sudo passwd -d root` and `sudo passwd -l root` to delete and lock the password of the root user
+
 2. set up ssh key (generate it locally, on your pc)
 
     `ssh-keygen -t ed25519`
