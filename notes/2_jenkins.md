@@ -1,8 +1,19 @@
+<img src="../assets/jenkins.png" alt="Jenkins Logo" height="40"/>
+
 # jenkins setup
 
-everything jenkins related can be found at this [link](https://www.jenkins.io/doc/book/installing/linux/), in the official docs.
+everything Jenkins related can be found in the [official docs](https://www.jenkins.io/doc/book/installing/linux/).
 
-## 1. initial setup
+## Prerequisites
+
+- A set up [Ubuntu Server](1_ubuntu.md)
+
+## Steps
+
+1. [initial setup](#1-initial-setup)
+2. [post-install setup](#2-post-install-setup)
+
+### 1. initial setup
 
 1. install java **[docs](https://www.jenkins.io/doc/book/installing/linux/#debian-java)**
 
@@ -18,10 +29,12 @@ everything jenkins related can be found at this [link](https://www.jenkins.io/do
 
     if applicable, add Jenkins as an exception to firewall rules
 
-## 2. post-install setup
+### 2. post-install setup
 
 1. unlock Jenkins **[docs](https://www.jenkins.io/doc/book/installing/linux/#unlocking-jenkins)**
 
 2. install suggested plugins
 
 3. create admin user **[docs](https://www.jenkins.io/doc/book/installing/linux/#creating-the-first-administrator-user)**
+
+[Back to Steps](#steps)
