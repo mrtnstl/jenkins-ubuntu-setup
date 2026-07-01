@@ -1,3 +1,6 @@
+<img src="./assets/jenkins.png" alt="Jenkins Logo" height="40"/>
+<img src="./assets/Ubuntu-Dark-Digital.png" alt="Ubuntu Logo" height="40" style="margin-left: 20px;"/>
+
 # Jenkins Ubuntu Setup
 
 This repository contains concise documentation and setup notes for Jenkins CI/CD on Ubuntu.
@@ -16,8 +19,14 @@ These notes capture the steps I used to configure a working Jenkins environment,
    - System preparation, package updates, user configuration, and firewall settings.
 2. [Jenkins installation](./notes/2_jenkins.md)
    - Jenkins installation, service setup, and initial security configuration.
-3. [Jenkins cloud agent setup](./notes/3_jenkins_cloud_agent.md)
+3. [Cloud agent setup](./notes/3_jenkins_cloud_agent.md)
    - Configuration of cloud-based build agents for scalable CI/CD workloads.
+4. [Defining env vars and secrets](./notes/4_jenkins_env_vars_and_secrets.md)
+    - Managing environment variables and secrets.
+5. [Creating freestyle jobs](./workflows/freestyle_jobs.md)
+   - Creating and managing freestyle jobs.
+6. [Creating pipeline jobs](./workflows/pipelines.md)
+   - Creating and managing pipeline jobs.
 
 ## Usage
 
