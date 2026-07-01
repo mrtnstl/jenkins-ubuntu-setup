@@ -1,8 +1,19 @@
+<img src="../assets/Ubuntu-Dark-Digital.png" alt="Ubuntu Logo" height="40"/>
+
 # ubuntu server setup
 
-server setup. will extend it along the way.
+Ubuntu server setup. Further hardening and security best practices can be found in the [official docs](https://ubuntu.com/server/docs/explanation/security/security_suggestions/).
 
-## 1. initial setup
+## Prerequisites
+
+- A fresh installation of Ubuntu Server
+
+## Steps
+
+1. [initial setup](#1-initial-setup)
+2. [adding baseline security](#2-adding-baseline-security)
+
+### 1. initial setup
 
 1. update && upgrade
 
@@ -10,7 +21,7 @@ server setup. will extend it along the way.
 
 3. set up hostname and hosts file if needed
 
-## 2. adding baseline security
+### 2. adding baseline security
 
 1. adding new user (because one shouldn't necessarily use the root user)
 
@@ -38,3 +49,5 @@ server setup. will extend it along the way.
     ```
 
 5. restart ssh service with `systemctl restart ssh`
+
+[Back to Steps](#steps)

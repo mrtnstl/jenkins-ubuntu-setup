@@ -1,9 +1,21 @@
-# jenkins docker cloud angent setup
+<img src="../assets/jenkins.png" alt="Jenkins Logo" height="40"/>
 
-With this setup, Jenkins will run the jobs on the local server using Docker. 
+# jenkins docker cloud agent setup
+
+With this setup, Jenkins will run the jobs on the local server using Docker.
+
 In a low trafic environment, running jobs on the server where the master node is hosted, could be acceptable.
 
-## 1. environment setup
+## Prerequisites
+
+- A set up [Ubuntu Server](1_ubuntu.md) with [Jenkins](2_jenkins.md) installed
+
+## Steps
+
+1. [environment setup](#1-environment-setup)
+2. [cloud and agent setup in Jenkins](#2-cloud-and-agent-setup-in-jenkins)
+
+### 1. environment setup
 
 1. install docker [docs](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
@@ -15,7 +27,7 @@ In a low trafic environment, running jobs on the server where the master node is
 
 3. install `Docker plugin` in Jenkins
 
-## 2. cloud and agent setup in Jenkins
+### 2. cloud and agent setup in Jenkins
 
 1. add new cloud
 
@@ -47,6 +59,8 @@ In a low trafic environment, running jobs on the server where the master node is
     Remote File System Root: /home/jenkins
     ```
 
-2. connect job to agent
+2. connect job to an agent
 
     go to Jenkins dashboard, select a project, select `Configure`, then in the General section select `Restrict where this project can be run`, and set docker-agent-alpine as input to the `Label Expression` field
+
+[Back to Steps](#steps)
